@@ -1,0 +1,5 @@
+% terraform output
+dlq_arn = "arn:aws:sqs:us-west-2:245261108553:orders-dlq"
+dlq_url = "https://sqs.us-west-2.amazonaws.com/245261108553/orders-dlq"
+queue_arn = "arn:aws:sqs:us-west-2:245261108553:orders-queue"
+queue_url = "https://sqs.us-west-2.amazonaws.com/245261108553/orders-queue"
