@@ -11,5 +11,5 @@ module "orders_queue" {
 
 output "queue_url" { value = module.orders_queue.queue_url }
 output "queue_arn" { value = module.orders_queue.queue_arn }
-output "dlq_url"   { value = module.orders_queue.dlq_url   }
-output "dlq_arn"   { value = module.orders_queue.dlq_arn   }
+output "dlq_url" { value = module.orders_queue.dlq_url }
+output "dlq_arn" { value = module.orders_queue.dlq_arn }
